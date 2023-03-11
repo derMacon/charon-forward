@@ -1,0 +1,9 @@
+charon:
+  tracing:
+    enabled: false
+
+charon.mappings:
+  -
+    name: sample mapping
+    path: /test
+    destinations: http://localhost:8081/test
